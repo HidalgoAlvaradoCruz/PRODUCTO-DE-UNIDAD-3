@@ -43,12 +43,18 @@ Durante esta entrada se brindara los fundamentos de estas técnicas de modelado,
 **Sintaxis**
 
 Las máquinas de estado finito se definen como una tupla S A S S sk , , , Σ ⊆ ×Σ× , donde:
+
 • S s s s = { 1 2 , ,..., : m} es un conjunto finito de nodos.
+
 • Σ : es un alfabeto finito de etiquetas.
+
 • A: es un conjunto finito de aristas etiquetadas que unen nodos.
+
 • sk S ∈ : es el estado inicial. 
 
 **Ejemplo**
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/img4.png)
 
 
 •〈 S = {1,2,3}
@@ -75,6 +81,8 @@ Suponer que se quiere modelar el comportamiento de una puerta. La puerta,
 inicialmente cerrada, puede pasar a estar abierta tras el evento “abrir puerta”. Una vezabierta, puede pasar al estado cerrada, tras el evento “cerrar puerta”. 
 
 
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/img5.png)
+
 **Trazas**
 
 El conjunto de posibles trazas correspondientes a una máquina de estado finitos, se puede
@@ -86,12 +94,21 @@ desde el estado inicial.
 Dada la FSM de ejemplo:
 
 
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/img6.png)
+
+
 Las trazas de esta FSM son:
+
 • {a, b, a} correspondiente a 1, 2, 3, 1
+
 • {b, a} correspondiente a 1, 3, 1
+
 • {a, b, a, b, a} correspondiente a 1, 2, 3, 1, 3, 1
+
 • {b, a, a, b, a} correspondiente a 1, 3, 1, 2, 3, 1
+
 • {b, a, b, a, ... , b, a} 1, 3, 1, 3, …, 1, 3
+
 • Etc…
 
 **Deadlock**
@@ -105,6 +122,8 @@ palabras, si existe algún nodo que no posea “salida” para ningún evento.
 El estado 2 no posee salida alguna. 
 
 
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/img7.png)
+
 
 **Semántica del deadlock**
 
@@ -115,15 +134,7 @@ Queremos modelar un partido de fútbol. Un partido de fútbol, en particular, se
 juega y finaliza. Y una vez finalizado, ese partido no se juega ni organiza nunca más.
 Entonces podríamos modelarlo de la siguiente manera: 
 
-
-
-
-
-
-
-
-
-
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/img8.png)
 
 Para diseñar usando FSM el primer paso fundamental es la declaración de todos los posibles estados en los que puede caer el circuito a diseñar, estos se pueden listar, declarando un nombre corto del estado, la salida que debe reflejar en el momento de llegar a el y por supuesto la funciones de evolución de estados, con esta información ya podemos desarrollar una representación formal de la maquina.
 
@@ -134,16 +145,24 @@ Esta representación se basa en burbujas que representan el estado e incluyen la
 
 Los tres diagramas representan la misma maquina, que tiene tres estados. A,B y C, tres entradas: "rst" que representa la señal de RESET, "x" que estimula la evolución de los estados y "clk", la cual no se ve representado en el diagrama pero es implícito ya que estas son unidades secuenciales, por lo que dependen de una señal de reloj, por ultimo se tiene una sola salida llamada "y", es posible observar que el estado inicial de la FSM es A, ya que es el único estimulado por la señal de RESET, la evolución de la maquina depende de la entrada y de la progresión de la señal de reloj, por ultimo son los valores de "x" los que determinan el cambio o no de estado, si bien para el ejemplo de basan en una función constante, estas pueden ser de múltiples tipos segun la necesidad o complejidad del diseño del controlador.
 
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/img1.png)
+
 **Diagramas de Hardware de lógica combinacional/secuencial**
 
 La representación de las FSM con esta perspectiva se basa en los dos bloques perfectamente representados: las sección superior conocida como bloque de lógica combinacional y la sección inferior que es el bloque de lógica secuencial, como se observa esta representación ilustra mejor el proceso controlado por el reloj pero no representa claramente el proceso de los estados.
 
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/img2.png)
 
 Con esta representación se puede hacer una mejor extrapolación de la maquina completa a VHDL, separando los dos bloque es dos procesos perfectamente codificables para la sección superior de la lógica combinacional y la parte inferior para la lógica secuencial.
 
 Una de las principales limitaciones de la anterior arquitectura, es que la salida generalmente producida por el circuito combinacional puede ser susceptible a fallas transitorias (glitches) que para algunas aplicaciones pueden afectar su rendimiento, si ese fuera el caso es posible corregir este problema agregando un bloque adicional que permita contener el transiente, como lo muestra la siguiente figura:
 
 adicional solamente contiene un flip-flop D que garantiza que tiempo suficiente para que el transiente se supere, es necesario notar que esta adición hace que la salida final se retrase un ciclo respecto a la obtenida por el modelo de controlador.
+
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/img3.png)
+
 
 
 **5. DIAGRAMAS**
@@ -195,7 +214,5 @@ En conclusión:
 
 
 **15.2. HOJAS TÉCNICAS**
-
-![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-2/blob/master/img/img34.png)
 
 
