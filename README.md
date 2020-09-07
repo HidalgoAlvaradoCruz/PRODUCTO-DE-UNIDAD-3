@@ -166,20 +166,56 @@ adicional solamente contiene un flip-flop D que garantiza que tiempo suficiente 
 
 
 **5. DIAGRAMAS**
-
-<br>
-
-**A. DIAGRAMA ELÉCTRICO**
-
-
-
-
 **6. MAPA DE VARIABLES**
+**7.EXPLICACIÓN DE lLOS PROBLEMAS**
 
+1. Dibuje el diagrama de estados para la máquina de estado finito cuya tabla de estados es la siguiente.
+Partiendo del estado s0, calcula la salida para la cadena de entrada 1000110.
 
-**7.EXPLICACIÓN DEL CIRCUITO**
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/img9.png)
 
+2. Dibuje el diagrama de estados para la máquina de estado finito cuya tabla de estados es la siguiente.
+Partiendo del estado inicial s0, calcula la salida para la cadena de entrada abbccc.
 
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/img10.png)
+
+3. Halle la tabla de estados para la máquina de estado finito cuyo diagrama de estados es:
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/img11.png)
+
+4. Construya una máquina de estado finito que modele una máquina expendedora de bebidas que acepta
+monedas de 5, 10 y 20 centavos. La máquina acepta monedas hasta que se introducen 25 centavos y devuelve
+cualquier cantidad que supere los 25 céntimos. Entonces, el cliente puede pulsar los botones y elegir una
+bebida de cola (C), cerveza (Z) o agua (A).
+
+5. Construya una máquina de estados finito que modele un circuito de riego automático como el mostrado
+en la figura. El circuito deberá accionar la bomba en las siguientes condiciones:
+a. El circuito accionará la bomba solamente cuando la tierra esté seca, pero antes debe comprobar
+las siguientes condiciones:
+
+i. Para evitar que la bomba se estropee por funcionar en vacío, nunca se accionará la
+bomba cuando el depósito de agua esté vacío.
+
+ii. Si hay restricciones en el riego (época de verano), sólo se podrá regar de noche.
+
+iii. En el resto del año (si no hay restricciones) se podrá regar de día y de noche (si la tierra
+está seca).
+
+b. Para la implementación del circuito se dispone de las siguientes entradas:
+
+i. S: Señal que indica si la tierra está seca: Tierra seca: S=1; Tierra húmeda: S=0
+
+ii. R: Señal que indica si hay restricciones en el riego (es verano): Hay restricciones: R=1
+No hay restricciones: R=0
+
+iii. D: Señal que indica si es de día o de noche: Día: D=1; Noche: D=0
+
+iv. V: Señal que indica si el depósito de agua está vacío: Vacío: V=1; Hay agua: V=0
+
+c. Y la salida B, que accionará la bomba para regar: Bomba funcionando: B=1; Bomba apagada
+B=0.
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/img12.png)
 
 **8. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN**
 
