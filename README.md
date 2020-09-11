@@ -165,19 +165,17 @@ adicional solamente contiene un flip-flop D que garantiza que tiempo suficiente 
 
 
 
-**5. DIAGRAMAS**
-**6. MAPA DE VARIABLES**
-**7.EXPLICACIÓN DE lLOS PROBLEMAS**
+**5. DIAGRAMAS - MAPA DE VARIABLES - EXPLICACIÓN DE LOS PROBLEMAS**
 
 1. Dibuje el diagrama de estados para la máquina de estado finito cuya tabla de estados es la siguiente.
 Partiendo del estado s0, calcula la salida para la cadena de entrada 1000110.
 
-![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/img9.png)
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/img15.png)
 
 2. Dibuje el diagrama de estados para la máquina de estado finito cuya tabla de estados es la siguiente.
 Partiendo del estado inicial s0, calcula la salida para la cadena de entrada abbccc.
 
-![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/img10.png)
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/img16.png)
 
 3. Halle la tabla de estados para la máquina de estado finito cuyo diagrama de estados es:
 
