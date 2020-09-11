@@ -170,7 +170,7 @@ adicional solamente contiene un flip-flop D que garantiza que tiempo suficiente 
 1. Dibuje el diagrama de estados para la máquina de estado finito cuya tabla de estados es la siguiente.
 Partiendo del estado s0, calcula la salida para la cadena de entrada 1000110.
 
-![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/img15.png)
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/img13.png)
 
 2. Dibuje el diagrama de estados para la máquina de estado finito cuya tabla de estados es la siguiente.
 Partiendo del estado inicial s0, calcula la salida para la cadena de entrada abbccc.
