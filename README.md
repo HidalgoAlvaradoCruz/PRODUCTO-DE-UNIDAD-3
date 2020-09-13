@@ -272,20 +272,6 @@ Para la cuarta fila con las entradas S2 (a) S3(b) y S0(c) a partir del estado S3
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/img11.png)
 
 <br>
-**EXPLICACIÓN**
-
-<br>
-
-Para realizar su respectivo análisis partiremos del estado de inicio, se observa que es la variable S0. Por tal motivo esta variable se ubicará primera en nuestra tabla de transiciones. 
-Para luego evaluar el funcionamiento de las flechas, se debe considerar tanto las que salen como las que ingresan ya que estos serán los estados que estarán en la tabla. 
-Finalmente, colocaremos en la primera fila los estados, en la segunda las Transiciones, en la tercera y última se colocará la salida, en las dos últimas se encontrarán divididas entre 0 y 1, dependiendo del estado en el cual se encuentren colocadas. 
-
-<br>
-
-**DIAGRAMA**
-
-
-![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/EJERCICIO%203%20P1.png)
 
 <br>
 
@@ -296,8 +282,70 @@ que se introducen 25 centavos y devuelve cualquier cantidad que supere los 25 c�
 
 <br>
 
+Para la construcción de la máquina de estado finito se utiliza el modelo de la Máquina de Moore, para la resolución de este tipo de ejercicios lo ideal es definir entradas, estados, transición de estados y salidas.
+
+Para plantear el diseño de la máquina dispensadora lo primero que se realiza es definir las entradas:
+
+<br>
+
+ Es importante tener en cuenta que al momento que se ingresa 25 ctvs o un valor mayor, la máquina vuelve al estado inicial.
+ En el caso de ingresar una cantidad mayor a 25 ctvs, el usuario va ha recibir su cambio respectivo.
+ 
+**ENTRADAS**
+
+- 0 ctvs 
+- 5 ctvs
+- 10 ctvs
+- 15 ctvs
+- 20 ctvs
+- 25 ctvs
+- mayor a 25 ctvs
+- C (coca cola)
+- Z (cerveza)
+- A (agua)
+ 
+ <br>
+ 
+ Teniendo en cuenta las condiciones del problema se deben definir los respectivos estados, una forma sencilla de identficarlos es relacionar las entradas en función del tiempo por ejemplo: 
+
+**ESTADOS**
+
+<br>
+
+**E0** se define como el estado inicial, es decir el momento cuando aún no se ingresa ninguna moneda 0 ctvs.
+**E1** en este estado se ingresó 5 ctvs
+**E2** en este estado se ingresó 10 ctvs
+**E3** en este estado se ingresó 15 ctvs
+**E4** en este estado se ingresó 20 ctvs
+**E5** en este estado se ingresó 25 ctvs
+**E6** en este estado se ingresó una cantidad mayor a 25 ctvs
+ 
+ <br>
+ 
+ Los productos que ofrece a la salida la máquina dispensadora son tres distintos tipos de BEBIDAS (C, Z, A), tambien se debe tomar en cuenta el caso donde la máquina tenga que devolver cambio al usuario en este caso la salida será BEBIDA + CAMBIO, en el caso que no se ingrese nada o que la cantidad de dinero sea insuficiente la máquina no entregará NADA. 
+ 
+ **SALIDAS**
+ 
+ <br>
+ 
+ **N** la máquina no entrega nada
+ **B** la máquina entrega una bebida según el usuario puede ser C, Z, A
+ **B+C** se entrega una bebida + el respectivo cambio es caso se da únicamente cuando se ingresa más de 25 ctvs.
+ 
+ 
+ 
+ 
+
+
+
+
+
+<br>
+
+<br>
+
 **5.5. Construya una máquina de estados finito que modele un circuito de riego automático como el mostrado
-en la figura. El circuito deberá accionar la bomba en las siguientes condiciones:
+en la figura. El circuito deberá accionar la bomba en las siguientes condiciones:**
 
 **a. El circuito accionará la bomba solamente cuando la tierra esté seca, pero antes debe comprobar las siguientes condiciones:**
 
@@ -330,33 +378,21 @@ No hay restricciones: R=0
 
 **Explicación**
 
-<br>
-
-Para evaluar la tabla de estados partiremos de las condiciones que nos plantea el ejercicio, nos apoyaremos de la tabla de verdad para una mejor comprensión y análisis.
-Primero evaluamos la condición, de que la bomba funcionará siempre y cuando la tierra se encuentre seca, llegando a determinar que cuando la tierra se encuentre húmeda la maquina procederá a permanecer en el mismo sitio. Una vez la máquina determine que la tierra se encuentra seca procederá a moverse al siguiente estado, para comprobar si existe o no restricción respecto a la estación del año, en caso de que no exista restricción la maquina se moverá al estado inicial y si existe alguna restricción procede a pasar a evaluar el siguiente estado de la máquina, el cual analiza si se encuentra en el día o la noche, ya solo se podría activar en la noche. 
-
-Finalmente evaluar el estado del tanque con la variable "V", en el cual se analizará si el tanque se encuentra lleno o vacío, ya que existe una restricción que si el tanque se encuentra lleno procederá a evaluar el estado antes mencionando, partiendo desde la variable Tierra (V). En caso que el tanque se encuentre vacío se quedara en mismo estado, debido a la condición establece que la bomba se debe encontrar llena para funcionar y evitar daños.
-
-<br>
 **Tabla de verdad**
 <br>
 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/JL1.png)
 <br>
-
 **Tabla de transiciones**
-
-<br>
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/Tabla%20de%20transiciones.png)
 
 <br>
 **Diagrama de estados**
 
-<br>
-
-![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/JL3.png)
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/JL2.png)
 
 <br>
+
 
 
 **6. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN**
@@ -410,16 +446,9 @@ En conclusión:
 
 •	Para facilitar la graficación de los diagramas y por cuestión de estética se puede hacer uso de diferentes softwares especializados para este tema.
 
-• Es importante comprender el ejercicio antes de realizar la tabla de transición. Así evitando problemas al momento de construir el diagrama de estados. Es importante leer varias veces hasta comprenderé lo que nos solicita el ejercicio. 
-
 **10. CRONOGRAMA**
 
-<br>
 
-![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/Cronograma.png)
-
-
-<br>
 
 **11. BIBLIOGRAFÍA**
 
