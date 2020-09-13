@@ -396,7 +396,10 @@ En conclusión:
 **10. CRONOGRAMA**
 
 <br>
+
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/tree/master/img)
+
+
 <br>
 
 **11. BIBLIOGRAFÍA**
