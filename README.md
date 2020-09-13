@@ -343,6 +343,7 @@ Para plantear el diseño de la máquina dispensadora lo primero que se realiza e
 
 Para expresar la transición de un estado a otro lo más viable es realizar una tabla y el respectivo diagrama de estados, básicamente la tabla y el diagrama expresan el mismo diseño.
 
+<br>
 
 **TABLA DE TRANSICIÓN DE ESTADOS**
 
