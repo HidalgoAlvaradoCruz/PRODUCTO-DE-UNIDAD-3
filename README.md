@@ -279,7 +279,3 @@ En conclusión:
 **15.1. MANUAL DE USUARIO**
 
 
-
-**15.2. HOJAS TÉCNICAS**
-
-
