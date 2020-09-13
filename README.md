@@ -284,26 +284,27 @@ que se introducen 25 centavos y devuelve cualquier cantidad que supere los 25 c�
 
 **5.5. Construya una máquina de estados finito que modele un circuito de riego automático como el mostrado
 en la figura. El circuito deberá accionar la bomba en las siguientes condiciones:
+
 a. El circuito accionará la bomba solamente cuando la tierra esté seca, pero antes debe comprobar las siguientes condiciones:**
 
-**i.** Para evitar que la bomba se estropee por funcionar en vacío, nunca se accionará la bomba cuando el depósito de agua esté vacío.
+ **i.** Para evitar que la bomba se estropee por funcionar en vacío, nunca se accionará la bomba cuando el depósito de agua esté vacío.
 
-**ii.** Si hay restricciones en el riego (época de verano), sólo se podrá regar de noche.
+ **ii.** Si hay restricciones en el riego (época de verano), sólo se podrá regar de noche. 
 
-**iii.** En el resto del año (si no hay restricciones) se podrá regar de día y de noche (si la tierra está seca).
+ **iii.** En el resto del año (si no hay restricciones) se podrá regar de día y de noche (si la tierra está seca).
 
 <br>
 
 **b. Para la implementación del circuito se dispone de las siguientes entradas:**
 
-**i.** S: Señal que indica si la tierra está seca: Tierra seca: S=1; Tierra húmeda: S=0
+ **i.** S: Señal que indica si la tierra está seca: Tierra seca: S=1; Tierra húmeda: S=0
 
-**ii.** R: Señal que indica si hay restricciones en el riego (es verano): Hay restricciones: R=1
+ **ii.** R: Señal que indica si hay restricciones en el riego (es verano): Hay restricciones: R=1
 No hay restricciones: R=0
 
-**iii.** D: Señal que indica si es de día o de noche: Día: D=1; Noche: D=0
+ **iii.** D: Señal que indica si es de día o de noche: Día: D=1; Noche: D=0
 
-**iv.** V: Señal que indica si el depósito de agua está vacío: Vacío: V=1; Hay agua: V=0
+ **iv.** V: Señal que indica si el depósito de agua está vacío: Vacío: V=1; Hay agua: V=0
 
 <br>
 
