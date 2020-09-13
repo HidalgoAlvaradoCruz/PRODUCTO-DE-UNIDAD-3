@@ -335,10 +335,25 @@ Para plantear el diseño de la máquina dispensadora lo primero que se realiza e
  <br>
  
  **N** la máquina no entrega nada
- **B** la máquina entrega una bebida según el usuario puede ser C, Z, A
- **B+C** se entrega una bebida + el respectivo cambio es caso se da únicamente cuando se ingresa más de 25 ctvs.
+
+**B** la máquina entrega una bebida según el usuario puede ser C, Z, A
+
+**B+C** se entrega una bebida + el respectivo cambio es caso se da únicamente cuando se ingresa más de 25 ctvs.
  
- 
+<br>
+
+Para expresar la transición de un estado a otro lo más viable es realizar una tabla y el respectivo diagrama de estados, básicamente la tabla y el diagrama expresan el mismo diseño.
+
+
+**TABLA DE TRANSICIÓN DE ESTADOS**
+
+<br>
+
+
+
+
+
+
  
  
 
