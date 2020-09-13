@@ -218,6 +218,8 @@ Sistema operativo: Windows 8.0 en adelante.
 
 **Partiendo del estado s0, calcula la salida para la cadena de entrada 1000110.**
 
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/img9.png)
+
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/img13.png)
 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/img17.png)
@@ -246,6 +248,7 @@ Para la quinta fila con las entradas S1 (0) y S0 (1) a partir del estado S4 se p
 **5.2. Dibuje el diagrama de estados para la máquina de estado finito cuya tabla de estados es la siguiente.
 Partiendo del estado inicial s0, calcula la salida para la cadena de entrada abbccc.**
 
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/img10.png)
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/img16.png)
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/img18.png)
 
