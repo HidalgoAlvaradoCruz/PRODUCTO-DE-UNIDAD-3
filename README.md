@@ -322,6 +322,7 @@ No hay restricciones: R=0
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/JL1.png)
 <br>
 **Tabla de transiciones**
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/Tabla%20de%20transiciones.png)
 
 <br>
 **Diagrama de estados**
