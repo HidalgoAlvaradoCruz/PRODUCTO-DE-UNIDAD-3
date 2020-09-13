@@ -385,6 +385,11 @@ En conclusión:
 [4] Rivas, D., Das, P., Saiz-Alcaine, J. y Ribas-Xirgo, L. (2018). Síntesis de controladores a partir de diagramas de máquina de pila de estados finitos. 2018 IEEE 23rd International Conference on Emerging Technologies and Factory Automation (ETFA). doi: 10.1109 / etfa.2018.8502451 
 
 
+[5] Paguayo, A. (2019, 2 mayo). MCI Capacitación. Máquinas de estado. https://cursos.mcielectronics.cl/2019/06/18/maquinas-de-estado/
+
+
+[6] Sánchez, E. (2019, 2 julio). Maquinas de Estado Finito y Maquinas de Turing. ISUU. https://issuu.com/esau1409/docs/esau_sanchez_ci16669954_-_revista_digital
+
 
 **12. ANEXOS**
 
