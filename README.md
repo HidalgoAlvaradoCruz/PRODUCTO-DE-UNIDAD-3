@@ -318,15 +318,15 @@ No hay restricciones: R=0
 
 **Tabla de verdad**
 <br>
-![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/JL1.png)
 
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/JL1.png)
 <br>
-**Tabla de transiciones:**
+**Tabla de transiciones**
 
 <br>
 **Diagrama de estados**
 
-![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/Diagrama%20de%20estados%20Del%20sistema%20de%20Riego.png)
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/JL2.png)
 
 <br>
 
