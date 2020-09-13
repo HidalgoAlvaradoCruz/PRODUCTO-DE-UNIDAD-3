@@ -350,7 +350,7 @@ Para expresar la transición de un estado a otro lo más viable es realizar una 
 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/4.1.jpg)
 
-![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/4.1.jpg)
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/4.2.jpg)
 
 
 
