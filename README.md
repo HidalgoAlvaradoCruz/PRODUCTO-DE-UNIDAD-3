@@ -205,7 +205,6 @@ Sistema operativo: Windows 8.0 en adelante.
 
 <br>
 
-
 <br>
 
 **5. DIAGRAMAS - MAPA DE VARIABLES - EXPLICACIÓN DE LOS PROBLEMAS**
@@ -349,6 +348,9 @@ Para expresar la transición de un estado a otro lo más viable es realizar una 
 
 <br>
 
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/4.1.jpg)
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/4.1.jpg)
 
 
 
