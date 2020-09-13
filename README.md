@@ -220,6 +220,25 @@ Sistema operativo: Windows 8.0 en adelante.
 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/img13.png)
 
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/img17.png)
+
+Explicación:
+
+Para empezar a dibujar el diagrama primero se tiene que contar el número de estado en esta caso son 5 estados y dibujar los vértices del diagrama tomando el cuenta el número de estados.
+
+Se observa el primer estado de la tabla que señala el inicio del digrama y se empieza a leer en forma horizontal la tabla empezando por la primera fila de izquiera a derecha y asi sucesivamente hasta termnar de construir el diagrama.
+
+Para la primera fila con las entradas S0 (0) y S4 (1) a partir del estado S0 se produce las salidas 1 y 1 y se dibuja las aristas correspondientas indentificandolas tanto con la entradas como las salidas respectivamente.
+
+Para la segunda fila con las entradas S0 (0) y S3 (1) a partir del estado S1 se produce las salidas 0 y 1 y se dibuja las aristas correspondientas indentificandolas tanto con la entradas como las salidas respectivamente.
+
+Para la tercera fila con las entradas S0 (0) y S2 (1) a partir del estado S2 se produce las salidas 0 y 0 y se dibuja las aristas correspondientas indentificandolas tanto con la entradas como las salidas respectivamente.
+
+Para la cuarta fila con las entradas S1 (0) y S1 (1) a partir del estado S3 se produce las salidas 1 y 1 y se dibuja las aristas correspondientas indentificandolas tanto con la entradas como las salidas respectivamente.
+
+Para la quinta fila con las entradas S1 (0) y S0 (1) a partir del estado S4 se produce las salidas 1 y 0 y se dibuja las aristas correspondientas indentificandolas tanto con la entradas como las salidas respectivamente.
+
+
 <br>
 
 <br>
@@ -228,10 +247,22 @@ Sistema operativo: Windows 8.0 en adelante.
 Partiendo del estado inicial s0, calcula la salida para la cadena de entrada abbccc.**
 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/img16.png)
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/img18.png)
 
-<br>
+Explicación:
 
-<br>
+Para empezar a dibujar el diagrama primero se tiene que contar el número de estado en esta caso son 4 estados y dibujar los vértices del diagrama tomando el cuenta el número de estados.
+
+Se observa el primer estado de la tabla que señala el inicio del digrama y se empieza a leer en forma horizontal la tabla empezando por la primera fila de izquiera a derecha y asi sucesivamente hasta termnar de construir el diagrama.
+
+Para la primera fila con las entradas S0 (a) S3(b) y S2(c) a partir del estado S0 se produce las salidas 0  1  1 y se dibuja las aristas correspondientas indentificandolas tanto con la entradas como las salidas respectivamente.
+
+Para la segunda fila con las entradas S1 (a) S1(b) y S3(c) a partir del estado S1 se produce las salidas 0  0  1 y se dibuja las aristas correspondientas indentificandolas tanto con la entradas como las salidas respectivamente.
+
+Para la tercera fila con las entradas S1 (a) S1(b) y S3(c) a partir del estado S2 se produce las salidas 1  1  0 y se dibuja las aristas correspondientas indentificandolas tanto con la entradas como las salidas respectivamente.
+
+Para la cuarta fila con las entradas S2 (a) S3(b) y S0(c) a partir del estado S3 se produce las salidas 1  0  1 y se dibuja las aristas correspondientas indentificandolas tanto con la entradas como las salidas respectivamente.
+
 
 **5.3. Halle la tabla de estados para la máquina de estado finito cuyo diagrama de estados es:**
 
