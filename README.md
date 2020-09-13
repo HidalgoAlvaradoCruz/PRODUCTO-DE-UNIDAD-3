@@ -280,14 +280,12 @@ Para realizar su respectivo análisis partiremos del estado de inicio, se observ
 Para luego evaluar el funcionamiento de las flechas, se debe considerar tanto las que salen como las que ingresan ya que estos serán los estados que estarán en la tabla. 
 Finalmente, colocaremos en la primera fila los estados, en la segunda las Transiciones, en la tercera y última se colocará la salida, en las dos últimas se encontrarán divididas entre 0 y 1, dependiendo del estado en el cual se encuentren colocadas. 
 
-
 <br>
 
 **DIAGRAMA**
 
+
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/EJERCICIO%203%20P1.png)
-
-
 
 <br>
 
@@ -331,6 +329,7 @@ No hay restricciones: R=0
 <br>
 
 **Explicación**
+
 <br>
 
 Para evaluar la tabla de estados partiremos de las condiciones que nos plantea el ejercicio, nos apoyaremos de la tabla de verdad para una mejor comprensión y análisis.
@@ -338,14 +337,15 @@ Primero evaluamos la condición, de que la bomba funcionará siempre y cuando la
 
 Finalmente evaluar el estado del tanque con la variable "V", en el cual se analizará si el tanque se encuentra lleno o vacío, ya que existe una restricción que si el tanque se encuentra lleno procederá a evaluar el estado antes mencionando, partiendo desde la variable Tierra (V). En caso que el tanque se encuentre vacío se quedara en mismo estado, debido a la condición establece que la bomba se debe encontrar llena para funcionar y evitar daños.
 
-
 <br>
 **Tabla de verdad**
 <br>
 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/JL1.png)
 <br>
+
 **Tabla de transiciones**
+
 <br>
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/Tabla%20de%20transiciones.png)
 
@@ -409,6 +409,8 @@ En conclusión:
 **9. RECOMENDACIONES**
 
 •	Para facilitar la graficación de los diagramas y por cuestión de estética se puede hacer uso de diferentes softwares especializados para este tema.
+
+• Es importante comprender el ejercicio antes de realizar la tabla de transición. Así evitando problemas al momento de construir el diagrama de estados. Es importante leer varias veces hasta comprenderé lo que nos solicita el ejercicio. 
 
 **10. CRONOGRAMA**
 
