@@ -33,6 +33,27 @@ Solucionar problemas de máquinas de estados finitos.
 
 **3.ESTADO DEL ARTE**
 
+<br>
+
+En 2002, Mikael Kerttu, Per Lindgren, Mitch Thomton y Rolf Drechsler en su estudio sobre la Estimación de la actividad de conmutación de máquinas de estados finitos para síntesis de baja potencia, en su investigaión se describe una técnica para calcular la actividad de conmutación de implementaciones de máquinas de estados finitos síncronas (FSM) que incluye la influencia de la correlación temporal entre las siguientes señales de estado. El enfoque se basa en el cálculo de que una FSM se encuentra en un estado dado que, a su vez, se usa para calcular la probabilidad condicional de que el siguiente bit de estado cambie dado su valor de estado actual. Todos los cálculos se realizan utilizando estructuras de datos de diagrama de decisión (DD). Como una aplicación de este método, la siguiente información de actividad de estado se utiliza para la optimización de baja potencia en la síntesis de circuitos mapeados con diagramas de decisión binaria (BDD). (Kerttu, M., Lindgren, P., Thornton, M. y Drechsler, R., 2002, p.1) [1].
+
+<br>
+
+Miroshnyk, M., Shkil, A., Kulak, E., Rakhlis, D., Filippenko, I. y Miroshnyk, A. miembros de la asociación de profesores KnNURE Kharkiv, Ucrania en 2020 implementaron un sistema para la Verificación de los sistemas de control FPGA mediante el análisis de la corrección de los diagramas de estado. El trabajo está dedicado a la verificación de los sistemas de control lógico automático mediante el análisis de la corrección de los diagramas de estado de las máquinas de control de estados finitos que se representan en forma de código en el lenguaje de descripción del hardware. Como método para el análisis de diagramas de estados, se propone utilizar el concepto de ortogonalidad, como un sistema de eventos incompatibles. El análisis de la corrección se lleva a cabo mediante el análisis de los resultados del modelado de comportamiento y la síntesis lógica utilizando herramientas CAD. (Miroshnyk M., Shkil A., Kulak, 2020, p.1) [2].
+
+<br>
+
+En 2002, Ming-Der Shieh, Wann-Shyang Ju y Ming-Hwa Sheu miembros del Departamento de Ingeniería Electrónica del Instituto Nacional de Tecnología de Yunlin, Taiwán presentarón un artículo sobre la Asignación de estado de bajo consumo para máquinas de estado finito asíncronas, en este artículo se presenta un modelo preciso para calcular las probabilidades de estado estable y las probabilidades de transición de estado de las máquinas de estado finito asíncronas (AFSM). Sobre la base de este modelo y el diagrama de adyacencia ponderado derivado, se propone una técnica de asignación de estado sin carrera unicode eficiente para minimizar la actividad de conmutación promedio de las variables de estado, y así reducir potencialmente la disipación de potencia promedio en AFSM. (Ming-Der Shieh, Wann-Shyang Ju, 2002, p.1) [3].
+
+<br>
+
+En 2018, Daniel Rivas, Pragna Das, Joaquín Saiz-Alcaine y Lluís Ribas-Xirgo miembros del Departamento de Microelectrónica y Sistemas electrónicos de la Universidad Autònoma de Barcelona, España realizaron un artículo sobre la Síntesis de controladores a partir de diagramas de máquina de pila de estados finitos. En este artículo, combinan máquinas de estados finitos extendidos (EFSM) con pilas de estados. Si bien EFSM coincide con la mayoría de las plantillas de diseño, las máquinas de pila de estado finito extendidas (EFS2M) se adaptan a arquitecturas de agentes de procedimiento para módulos en niveles de abstracción más altos de las redes de los controladores. (Daniel Rivas, Pragna Das, 2018, p.1) [4].
+
+<br>
+
+Para el presente producto de unidad, se utilizó Creately que es un programa para crear diagramas de flujo aplicando la temática y conceptos básicos de las máquinas de estado. (Miroshnyk M., Shkil A., Kulak, 2020, p.1), el análisis y el diseño de una máquina de estado finito utiliza módulos en niveles de abstracción (Daniel Rivas, Pragna Das, 2018, p.1) . 
+
+<br>
 
 **4.MARCO TEÓRICO**
 
@@ -238,6 +259,18 @@ En conclusión:
 
 
 **14. BIBLIOGRAFÍA**
+
+<br>
+
+[1] Kerttu, M., Lindgren, P., Thornton, M. y Drechsler, R. (nd). Estimación de la actividad de conmutación de máquinas de estados finitos para síntesis de baja potencia. 2002 Simposio Internacional IEEE sobre Circuitos y Sistemas. Procedimientos (Cat. No 02CH37353). doi: 10.1109 / iscas.2002.1010389 
+
+[2] Miroshnyk, M., Shkil, A., Kulak, E., Rakhlis, D., Filippenko, I. y Miroshnyk, A. (2020). Verificación de los sistemas de control FPGA mediante el análisis de la corrección de los diagramas de estado. 2020 IEEE 11th International Conference on Dependable Systems, Services and Technologies (DESSERT). doi: 10.1109 / postre50317.2020.9125067 
+
+
+[3] Ming-Der Shieh, Wann-Shyang Ju y Ming-Hwa Sheu. (Dakota del Norte). Asignación de estado de bajo consumo para máquinas de estado finito asíncronas. Actas del 39º Simposio del Medio Oeste sobre circuitos y sistemas. doi: 10.1109 / mwscas.1996.593176 
+
+
+[4] Rivas, D., Das, P., Saiz-Alcaine, J. y Ribas-Xirgo, L. (2018). Síntesis de controladores a partir de diagramas de máquina de pila de estados finitos. 2018 IEEE 23rd International Conference on Emerging Technologies and Factory Automation (ETFA). doi: 10.1109 / etfa.2018.8502451 
 
 
 
