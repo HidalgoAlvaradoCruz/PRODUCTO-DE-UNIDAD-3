@@ -313,11 +313,17 @@ Para plantear el diseño de la máquina dispensadora lo primero que se realiza e
 <br>
 
 **E0** se define como el estado inicial, es decir el momento cuando aún no se ingresa ninguna moneda 0 ctvs.
+
 **E1** en este estado se ingresó 5 ctvs
+
 **E2** en este estado se ingresó 10 ctvs
+
 **E3** en este estado se ingresó 15 ctvs
+
 **E4** en este estado se ingresó 20 ctvs
+
 **E5** en este estado se ingresó 25 ctvs
+
 **E6** en este estado se ingresó una cantidad mayor a 25 ctvs
  
  <br>
