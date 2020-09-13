@@ -315,22 +315,31 @@ No hay restricciones: R=0
 <br>
 
 **Explicación**
+<br>
 
+Para evaluar la tabla de estados partiremos de las condiciones que nos plantea el ejercicio, nos apoyaremos de la tabla de verdad para una mejor comprención y análisis.
+Primero evaluamos la condición, de que la bomba funcionara siempre y cuando la tierra se encuentre seca, llegando a determinar que cuando la tierra se encuentre humeda la maquina procedara a permanecer en el mismo sitio. Una vez la máquina determiene que la tierra se encuentra seca procedera a moverse al siguiente estado, para comprobar si existe o no restriccion respecto a la estación del año, en cado de que no exista restricción la maquina se movera al estado inicial y si existe alguna restricción procede a pasar a evaluar el siguiente estado de la maquina, el cual análisa si se ecuentra en el día o la noche, ya solo se podria activar en la coche. 
+
+Finalmente evaluar el estado del tanque con la variable "V", en el cual se analizara si el tanque se encuentra lleno o vacio, ya que existe una restricción que si el tanque se encuentra lleno procedara a evaluar el estado antes mencionando, partiendo desde la variable Tierra (V). En caso que el tanque se encuentre vacio se quedara en mismo estado, debido a la condicion establece que la bomba se debe encontrar llena para funcionar y evitar daños. 
+
+<br>
 **Tabla de verdad**
 <br>
 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/JL1.png)
 <br>
 **Tabla de transiciones**
+<br>
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/Tabla%20de%20transiciones.png)
 
 <br>
 **Diagrama de estados**
 
-![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/JL2.png)
-
 <br>
 
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/JL3.png)
+
+<br>
 
 
 **6. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN**
