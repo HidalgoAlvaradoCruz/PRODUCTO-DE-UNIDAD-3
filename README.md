@@ -397,7 +397,7 @@ En conclusión:
 
 <br>
 
-![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/tree/master/img)
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/Cronograma.png)
 
 
 <br>
