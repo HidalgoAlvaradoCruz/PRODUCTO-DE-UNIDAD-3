@@ -285,7 +285,7 @@ que se introducen 25 centavos y devuelve cualquier cantidad que supere los 25 c�
 **5.5. Construya una máquina de estados finito que modele un circuito de riego automático como el mostrado
 en la figura. El circuito deberá accionar la bomba en las siguientes condiciones:
 
-a. El circuito accionará la bomba solamente cuando la tierra esté seca, pero antes debe comprobar las siguientes condiciones:**
+***a. El circuito accionará la bomba solamente cuando la tierra esté seca, pero antes debe comprobar las siguientes condiciones:**
 
  **i.** Para evitar que la bomba se estropee por funcionar en vacío, nunca se accionará la bomba cuando el depósito de agua esté vacío.
 
@@ -295,7 +295,7 @@ a. El circuito accionará la bomba solamente cuando la tierra esté seca, pero a
 
 <br>
 
-**b. Para la implementación del circuito se dispone de las siguientes entradas:**
+***b. Para la implementación del circuito se dispone de las siguientes entradas:**
 
  **i.** S: Señal que indica si la tierra está seca: Tierra seca: S=1; Tierra húmeda: S=0
 
@@ -308,13 +308,30 @@ No hay restricciones: R=0
 
 <br>
 
-**c. Y la salida B, que accionará la bomba para regar: Bomba funcionando: B=1; Bomba apagada B=0.**
+***c. Y la salida B, que accionará la bomba para regar: Bomba funcionando: B=1; Bomba apagada B=0.**
 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/img12.png)
 
 <br>
 
+**Explicación:**
+
+
 <br>
+**Tabla de verdad**
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/JL1.png)
+
+<br>
+**Tabla de transiciones:**
+
+<br>
+**Diagrama de estados**
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/Diagrama%20de%20estados%20Del%20sistema%20de%20Riego.png)
+
+<br>
+
+
 
 **6. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN**
 
