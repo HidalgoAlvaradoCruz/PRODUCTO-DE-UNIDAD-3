@@ -356,11 +356,15 @@ El Diagrama de Estado creado en Tinkercad puede funcionar en cualquier servidor 
 
 En conclusión:
 
+•	Las Maquinas de estado Finito al ser una modelación conceptual se puede afirmar gracias a la resolución de los problemas que pueden realizar procesos bien definidos en un tiempo discreto y que tienen relación con el mundo real ya que reciben una entrada, hacen un proceso y  entregan una salida. Por lo tanto en la aplicación de  circuitos digitales y en la ingeniería  las máquinas de estado son capaces de resolver un problema si se tiene una solución algorítmica, es decir, puede ser descrito mediante una secuencia finita de pasos bien definidos.
 
+•	
+
+•	
 
 **9. RECOMENDACIONES**
 
-
+•	Para facilitar la graficación de los diagramas y por cuestión de estética se puede hacer uso de diferentes softwares especializados para este tema.
 
 **10. CRONOGRAMA**
 
