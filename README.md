@@ -210,7 +210,11 @@ Sistema operativo: Windows 8.0 en adelante.
 
 **5. DIAGRAMAS - MAPA DE VARIABLES - EXPLICACIÓN DE LOS PROBLEMAS**
 
-**1. Dibuje el diagrama de estados para la máquina de estado finito cuya tabla de estados es la siguiente.**
+<br>
+
+<br>
+
+**5.1. Dibuje el diagrama de estados para la máquina de estado finito cuya tabla de estados es la siguiente.**
 
 **Partiendo del estado s0, calcula la salida para la cadena de entrada 1000110.**
 
@@ -220,7 +224,7 @@ Sistema operativo: Windows 8.0 en adelante.
 
 <br>
 
-**2. Dibuje el diagrama de estados para la máquina de estado finito cuya tabla de estados es la siguiente.
+**5.2. Dibuje el diagrama de estados para la máquina de estado finito cuya tabla de estados es la siguiente.
 Partiendo del estado inicial s0, calcula la salida para la cadena de entrada abbccc.**
 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/img16.png)
@@ -229,7 +233,7 @@ Partiendo del estado inicial s0, calcula la salida para la cadena de entrada abb
 
 <br>
 
-**3. Halle la tabla de estados para la máquina de estado finito cuyo diagrama de estados es:**
+**5.3. Halle la tabla de estados para la máquina de estado finito cuyo diagrama de estados es:**
 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/img11.png)
 
@@ -237,35 +241,33 @@ Partiendo del estado inicial s0, calcula la salida para la cadena de entrada abb
 
 <br>
 
-**4. Construya una máquina de estado finito que modele una máquina expendedora de bebidas que acepta monedas de 5, 10 y 20 centavos. La máquina acepta monedas hasta 
+**5.4. Construya una máquina de estado finito que modele una máquina expendedora de bebidas que acepta monedas de 5, 10 y 20 centavos. La máquina acepta monedas hasta 
 que se introducen 25 centavos y devuelve cualquier cantidad que supere los 25 céntimos. Entonces, el cliente puede pulsar los botones y elegir una bebida de cola (C), cerveza (Z) o agua (A).**
 
 <br>
 
 <br>
 
-**5. Construya una máquina de estados finito que modele un circuito de riego automático como el mostrado
+**5.5. Construya una máquina de estados finito que modele un circuito de riego automático como el mostrado
 en la figura. El circuito deberá accionar la bomba en las siguientes condiciones:
 a. El circuito accionará la bomba solamente cuando la tierra esté seca, pero antes debe comprobar las siguientes condiciones:**
 
-**i. Para evitar que la bomba se estropee por funcionar en vacío, nunca se accionará la
-bomba cuando el depósito de agua esté vacío.**
+i. Para evitar que la bomba se estropee por funcionar en vacío, nunca se accionará la bomba cuando el depósito de agua esté vacío.
 
-**ii. Si hay restricciones en el riego (época de verano), sólo se podrá regar de noche.**
+ii. Si hay restricciones en el riego (época de verano), sólo se podrá regar de noche.
 
-**iii. En el resto del año (si no hay restricciones) se podrá regar de día y de noche (si la tierra
-está seca).**
+iii. En el resto del año (si no hay restricciones) se podrá regar de día y de noche (si la tierra está seca).
 
 **b. Para la implementación del circuito se dispone de las siguientes entradas:**
 
-**i. S: Señal que indica si la tierra está seca: Tierra seca: S=1; Tierra húmeda: S=0**
+i. S: Señal que indica si la tierra está seca: Tierra seca: S=1; Tierra húmeda: S=0
 
-**ii. R: Señal que indica si hay restricciones en el riego (es verano): Hay restricciones: R=1
-No hay restricciones: R=0**
+ii. R: Señal que indica si hay restricciones en el riego (es verano): Hay restricciones: R=1
+No hay restricciones: R=0
 
-**iii. D: Señal que indica si es de día o de noche: Día: D=1; Noche: D=0**
+iii. D: Señal que indica si es de día o de noche: Día: D=1; Noche: D=0
 
-**iv. V: Señal que indica si el depósito de agua está vacío: Vacío: V=1; Hay agua: V=0**
+iv. V: Señal que indica si el depósito de agua está vacío: Vacío: V=1; Hay agua: V=0
 
 **c. Y la salida B, que accionará la bomba para regar: Bomba funcionando: B=1; Bomba apagada B=0.**
 
@@ -275,7 +277,7 @@ No hay restricciones: R=0**
 
 <br>
 
-**8. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN**
+**6. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN**
 
 <br>
 
@@ -308,25 +310,25 @@ El Diagrama de Estado creado en Tinkercad puede funcionar en cualquier servidor 
 
 <br>
 
-**10. APORTACIONES**
+**7. APORTACIONES**
 
 
 
-**11. CONCLUSIONES**
+**8. CONCLUSIONES**
 
 En conclusión:
 
 
 
-**12. RECOMENDACIONES**
+**9. RECOMENDACIONES**
 
 
 
-**13. CRONOGRAMA**
+**10. CRONOGRAMA**
 
 
 
-**14. BIBLIOGRAFÍA**
+**11. BIBLIOGRAFÍA**
 
 <br>
 
@@ -342,8 +344,8 @@ En conclusión:
 
 
 
-**15. ANEXOS**
+**12. ANEXOS**
 
-**15.1. MANUAL DE USUARIO**
+**12.1. MANUAL DE USUARIO**
 
 
