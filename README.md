@@ -314,11 +314,10 @@ No hay restricciones: R=0
 
 <br>
 
-**Explicación:**
+**Explicación**
 
-
-<br>
 **Tabla de verdad**
+<br>
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/JL1.png)
 
 <br>
