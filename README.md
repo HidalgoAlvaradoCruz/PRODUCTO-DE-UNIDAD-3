@@ -272,6 +272,22 @@ Para la cuarta fila con las entradas S2 (a) S3(b) y S0(c) a partir del estado S3
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/img11.png)
 
 <br>
+**EXPLICACIÓN**
+
+<br>
+
+Para realizar su respectivo análisis partiremos del estado de inicio, se observa que es la variable S0. Por tal motivo esta variable se ubicará primera en nuestra tabla de transiciones. 
+Para luego evaluar el funcionamiento de las flechas, se debe considerar tanto las que salen como las que ingresan ya que estos serán los estados que estarán en la tabla. 
+Finalmente, colocaremos en la primera fila los estados, en la segunda las Transiciones, en la tercera y última se colocará la salida, en las dos últimas se encontrarán divididas entre 0 y 1, dependiendo del estado en el cual se encuentren colocadas. 
+
+
+<br>
+
+**DIAGRAMA**
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/EJERCICIO%203%20P1.png)
+
+
 
 <br>
 
@@ -317,10 +333,11 @@ No hay restricciones: R=0
 **Explicación**
 <br>
 
-Para evaluar la tabla de estados partiremos de las condiciones que nos plantea el ejercicio, nos apoyaremos de la tabla de verdad para una mejor comprención y análisis.
-Primero evaluamos la condición, de que la bomba funcionara siempre y cuando la tierra se encuentre seca, llegando a determinar que cuando la tierra se encuentre humeda la maquina procedara a permanecer en el mismo sitio. Una vez la máquina determiene que la tierra se encuentra seca procedera a moverse al siguiente estado, para comprobar si existe o no restriccion respecto a la estación del año, en cado de que no exista restricción la maquina se movera al estado inicial y si existe alguna restricción procede a pasar a evaluar el siguiente estado de la maquina, el cual análisa si se ecuentra en el día o la noche, ya solo se podria activar en la coche. 
+Para evaluar la tabla de estados partiremos de las condiciones que nos plantea el ejercicio, nos apoyaremos de la tabla de verdad para una mejor comprensión y análisis.
+Primero evaluamos la condición, de que la bomba funcionará siempre y cuando la tierra se encuentre seca, llegando a determinar que cuando la tierra se encuentre húmeda la maquina procederá a permanecer en el mismo sitio. Una vez la máquina determine que la tierra se encuentra seca procederá a moverse al siguiente estado, para comprobar si existe o no restricción respecto a la estación del año, en caso de que no exista restricción la maquina se moverá al estado inicial y si existe alguna restricción procede a pasar a evaluar el siguiente estado de la máquina, el cual analiza si se encuentra en el día o la noche, ya solo se podría activar en la noche. 
 
-Finalmente evaluar el estado del tanque con la variable "V", en el cual se analizara si el tanque se encuentra lleno o vacio, ya que existe una restricción que si el tanque se encuentra lleno procedara a evaluar el estado antes mencionando, partiendo desde la variable Tierra (V). En caso que el tanque se encuentre vacio se quedara en mismo estado, debido a la condicion establece que la bomba se debe encontrar llena para funcionar y evitar daños. 
+Finalmente evaluar el estado del tanque con la variable "V", en el cual se analizará si el tanque se encuentra lleno o vacío, ya que existe una restricción que si el tanque se encuentra lleno procederá a evaluar el estado antes mencionando, partiendo desde la variable Tierra (V). En caso que el tanque se encuentre vacío se quedara en mismo estado, debido a la condición establece que la bomba se debe encontrar llena para funcionar y evitar daños.
+
 
 <br>
 **Tabla de verdad**
