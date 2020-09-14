@@ -503,7 +503,7 @@ En conclusión:
 
 • La resolución de cualquier problema de máquinas de Estatdo finito ya sea por el método de Moore o Mealy, tienen como punto crucial el saber identificar de manera correcta el número y tipo de estados sin obviar ningún paso, ya que en base a los estados se realiza la transición y se indica las respectivas salidas de cada sistema, por lo cual los estados son de suma importancia para identificar cualquier tipo de condición o caraterística especial que indique el problema en cuestión. 
 
-•	
+•	Todas las máquinas de estado finito tienen un conjunto de estados, incluido el estado inicial, un alfabeto fuente y una función de transición que a cada pareja de estado y dato de entrada le asigna el estado siguiente y todos los estados de la máquina le dan unas capacidades de memoria limitada.
 
 
 <br>
