@@ -431,7 +431,7 @@ Finalmente evaluar el estado del tanque con la variable "V", en el cual se anali
 
 <br>
 
-![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/JL1.png)
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/1.11.png)
 <br>
 **Tabla de transiciones**
 
