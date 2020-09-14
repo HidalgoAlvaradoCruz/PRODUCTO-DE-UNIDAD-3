@@ -486,6 +486,15 @@ El Diagrama de Estado creado en Tinkercad puede funcionar en cualquier servidor 
 
 **7. APORTACIONES**
 
+Se realizó una máquina de estado finito que simula una máquina expendedora de bebidas en Thinkercad con un Arduino UNO que envía el código requerido a la Pantalla LCD que mostrará un mensaje 'INGRESE $150'( Un dólar con 50 centavos) y el SALDO que ingrese el usuario dependiendo de los botones que pulse ya que el primer botón o pulsador representa $100 ( Un dólar),el segundo botón representa $50(50 centavos) y el tercer botón representa un 'ENTER, al confirmar el usuario pulsando un ENTER se reflejará en la pantalla LCD un mensaje que dice 'TOME SU BEBIDA ,GRACIAS :)'además se tiene un foco Led que se enciende para indicar al usuario que ya ingresado los $150 ya que posteriormente se va a resetear la pantalla automáticamente.
+
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/img19.png)
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/img20.png)
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/img21.png)
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/img22.png)
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/img23.png)
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/img24.png)
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/img25.png)
 
 
 **8. CONCLUSIONES**
