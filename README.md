@@ -428,7 +428,9 @@ Primero evaluamos la condición, de que la bomba funcionará siempre y cuando la
 Finalmente evaluar el estado del tanque con la variable "V", en el cual se analizará si el tanque se encuentra lleno o vacío, ya que existe una restricción que si el tanque se encuentra lleno procederá a evaluar el estado antes mencionando, partiendo desde la variable Tierra (V). En caso que el tanque se encuentre vacío se quedara en mismo estado, debido a la condición establece que la bomba se debe encontrar llena para funcionar y evitar daños.
 
 <br>
+
 **Tabla de verdad**
+
 <br>
 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/JL1.png)
