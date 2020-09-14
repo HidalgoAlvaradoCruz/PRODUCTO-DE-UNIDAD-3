@@ -499,6 +499,7 @@ En conclusión:
 **9. RECOMENDACIONES**
 
 •	Para facilitar la graficación de los diagramas y por cuestión de estética se puede hacer uso de diferentes softwares especializados para este tema.
+• Es importante comprender el ejercicio antes de realizar la tabla de transición. Así evitando problemas al momento de construir el diagrama de estados. Es importante leer varias veces hasta comprenderé lo que nos solicita el ejercicio. 
 
 **10. CRONOGRAMA**
 
