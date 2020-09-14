@@ -268,10 +268,16 @@ Para la cuarta fila con las entradas S2 (a) S3(b) y S0(c) a partir del estado S3
 
 **5.3. Halle la tabla de estados para la máquina de estado finito cuyo diagrama de estados es:**
 
+<br>
+
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/img11.png)
 
 <br>
+
+
 **Explicación**
+
+
 <br>
 Para realizar su respectivo análisis partiremos del estado de inicio, se observa que es la variable S0. Por tal motivo esta variable se ubicará primera en nuestra tabla de transiciones. 
 Para luego evaluar el funcionamiento de las flechas, se debe considerar tanto las que salen como las que ingresan ya que estos serán los estados que estarán en la tabla. 
