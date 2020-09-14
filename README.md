@@ -503,21 +503,29 @@ En conclusión:
 
 •	Las Maquinas de estado Finito al ser una modelación conceptual se puede afirmar gracias a la resolución de los problemas que pueden realizar procesos bien definidos en un tiempo discreto y que tienen relación con el mundo real ya que reciben una entrada, hacen un proceso y  entregan una salida. Por lo tanto en la aplicación de  circuitos digitales y en la ingeniería  las máquinas de estado son capaces de resolver un problema si se tiene una solución algorítmica, es decir, puede ser descrito mediante una secuencia finita de pasos bien definidos.
 
-•	
+• La resolución de cualquier problema de máquinas de Estatdo finito ya sea por el método de Moore o Mealy, tienen como punto crucial el saber identificar de manera correcta el número y tipo de estados sin obviar ningún paso, ya que en base a los estados se realiza la transición y se indica las respectivas salidas de cada sistema, por lo cual los estados son de suma importancia para identificar cualquier tipo de condición o caraterística especial que indique el problema en cuestión. 
 
 •	
+
+
+<br>
 
 **9. RECOMENDACIONES**
 
 •	Para facilitar la graficación de los diagramas y por cuestión de estética se puede hacer uso de diferentes softwares especializados para este tema.
 
-• Es importante comprender el ejercicio antes de realizar la tabla de transición. Así evitando problemas al momento de construir el diagrama de estados. Es importante leer varias veces hasta comprenderé lo que nos solicita el ejercicio. 
+• Es importante comprender el ejercicio antes de realizar la tabla de transición. Así evitando problemas al momento de construir el diagrama de estados. Es importante leer 
+varias veces hasta comprenderé lo que nos solicita el ejercicio. 
 
-• 
+• Al momento de escribir las entradas y los estados, lo más aconsejable es relacionarlos entre en sí, haciendo las preguntas respectivas por ejemplo: En el momento que aun no se ingresa ninguna moneda ¿En qué estado me encuentro?, de esta forma al relacionar ambas variables en función del tiempo se puede decir que me ecuentro en el estado inicial E0, y así sucesivamente.
+
+<br>
 
 **10. CRONOGRAMA**
 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/Cronograma.png)
+
+<br>
 
 **11. BIBLIOGRAFÍA**
 
