@@ -419,16 +419,24 @@ No hay restricciones: R=0
 
 <br>
 
-**Explicación**
 
+**Explicación**
+<br>
+Para evaluar la tabla de estados partiremos de las condiciones que nos plantea el ejercicio, nos apoyaremos de la tabla de verdad para una mejor comprensión y análisis.
+Primero evaluamos la condición, de que la bomba funcionará siempre y cuando la tierra se encuentre seca, llegando a determinar que cuando la tierra se encuentre húmeda la maquina procederá a permanecer en el mismo sitio. Una vez la máquina determine que la tierra se encuentra seca procederá a moverse al siguiente estado, para comprobar si existe o no restricción respecto a la estación del año, en caso de que no exista restricción la maquina se moverá al estado inicial y si existe alguna restricción procede a pasar a evaluar el siguiente estado de la máquina, el cual analiza si se encuentra en el día o la noche, ya solo se podría activar en la noche. 
+
+Finalmente evaluar el estado del tanque con la variable "V", en el cual se analizará si el tanque se encuentra lleno o vacío, ya que existe una restricción que si el tanque se encuentra lleno procederá a evaluar el estado antes mencionando, partiendo desde la variable Tierra (V). En caso que el tanque se encuentre vacío se quedara en mismo estado, debido a la condición establece que la bomba se debe encontrar llena para funcionar y evitar daños.
+
+<br>
 **Tabla de verdad**
 <br>
 
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/JL1.png)
 <br>
 **Tabla de transiciones**
-![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/Tabla%20de%20transiciones.png)
 
+<br>
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/Tabla%20de%20transiciones.png)
 <br>
 **Diagrama de estados**
 
@@ -491,7 +499,7 @@ En conclusión:
 
 **10. CRONOGRAMA**
 
-
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/Cronograma.png)
 
 **11. BIBLIOGRAFÍA**
 
