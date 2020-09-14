@@ -378,7 +378,7 @@ Para expresar la transición de un estado a otro lo más viable es realizar una 
 
 <br>
 
-![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/4.3.jpg)
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/4..jpg)
 
 
 <br>
