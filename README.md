@@ -537,8 +537,5 @@ En conclusión:
 [6] Sánchez, E. (2019, 2 julio). Maquinas de Estado Finito y Maquinas de Turing. ISUU. https://issuu.com/esau1409/docs/esau_sanchez_ci16669954_-_revista_digital
 
 
-**12. ANEXOS**
-
-**12.1. MANUAL DE USUARIO**
 
 
