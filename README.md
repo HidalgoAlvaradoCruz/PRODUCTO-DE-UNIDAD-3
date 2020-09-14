@@ -271,8 +271,15 @@ Para la cuarta fila con las entradas S2 (a) S3(b) y S0(c) a partir del estado S3
 ![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/img11.png)
 
 <br>
-
+**Explicación**
 <br>
+Para realizar su respectivo análisis partiremos del estado de inicio, se observa que es la variable S0. Por tal motivo esta variable se ubicará primera en nuestra tabla de transiciones. 
+Para luego evaluar el funcionamiento de las flechas, se debe considerar tanto las que salen como las que ingresan ya que estos serán los estados que estarán en la tabla. 
+Finalmente, colocaremos en la primera fila los estados, en la segunda las Transiciones, en la tercera y última se colocará la salida, en las dos últimas se encontrarán divididas entre 0 y 1, dependiendo del estado en el cual se encuentren colocadas. 
+<br>
+**TABLA DE TRANSICIÓN DE ESTADOS**
+<br>
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/EJERCICIO%203%20P1.png)
 
 **5.4. Construya una máquina de estado finito que modele una máquina expendedora de bebidas que acepta monedas de 5, 10 y 20 centavos. La máquina acepta monedas hasta 
 que se introducen 25 centavos y devuelve cualquier cantidad que supere los 25 céntimos. Entonces, el cliente puede pulsar los botones y elegir una bebida de cola (C), cerveza (Z) o agua (A).**
