@@ -437,13 +437,13 @@ Finalmente evaluar el estado del tanque con la variable "V", en el cual se anali
 
 <br>
 
-![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/1.12.png)
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/IMAGEN2.png)
 
 <br>
 
 **Diagrama de estados**
 
-![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/1.13.png)
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/IMAGEN1.png)
 
 <br>
 
