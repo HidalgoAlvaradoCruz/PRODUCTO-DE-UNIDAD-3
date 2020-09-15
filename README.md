@@ -443,7 +443,7 @@ Finalmente evaluar el estado del tanque con la variable "V", en el cual se anali
 
 **Diagrama de estados**
 
-![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/IMAGEN1.png)
+![](https://github.com/HidalgoAlvaradoCruz/PRODUCTO-DE-UNIDAD-3/blob/master/img/Diagrama%20de%20estados%20Del%20sistema%20de%20Riego.png)
 
 <br>
 
